@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ban Kỹ Thuật</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ban Kỹ Thuật: Gửi Câu Hỏi</h1>
+        <input type="text" id="content" placeholder="Nhập câu hỏi">
+        <input type="text" id="answer" placeholder="Nhập đáp án">
+        <button onclick="sendQuestion()">Gửi Câu Hỏi</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/admin.js"></script>
+</body>
+</html>
